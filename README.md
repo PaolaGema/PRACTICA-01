@@ -2,7 +2,28 @@
 
 # SISTEMAS EMPRESARIALES #
 
+<table>
+<tr>
+    <td>CARRERA:</td>
+    <td>INGENIERIA DE SISTEMAS</td>
+</tr>
+<tr>
+    <td>MATERIA</td>
+    <td>TECNOLOGIAS EMERGENTES II</td>
+</tr>
+  <tr>
+    <td>APELLIDOS Y NOMBRES</td>
+    <td>MAMANI JANCO PAOLA GEMA</td>
+</tr>
+  <tr>
+    <td>C.I. </td>
+    <td>13797938</td>
+</tr>
+  <tr>
+    <td>LUGAR Y FECHA</td>
+    <td>CIUDAD DE EL ALTO</td>
 
+</table>
 
 1. Explique que son los sistemas empresariales.
 2. Describa cuales son las características más importantes de una aplicación empresarial.
