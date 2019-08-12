@@ -35,6 +35,8 @@
 
 ### Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
 ### Que es un servidor Web y que es un servidor de aplicaciones
+ Un servidor web es el software que se encarga de despachar el contenido de un sitio web al usuario.
+ Un servidor de aplicaciones es un programa de servidor en un equipo en una red distribuida que proporciona la lógica de negocio para un programa de aplicación.
 ### Con un gráfico explique cómo funciona el protocolo HTTP
 ### Explique los elementos importantes de REQUEST en HTTP
 ### Explique los elementos importantes de RESPONSE en HTTP
