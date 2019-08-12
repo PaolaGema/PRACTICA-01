@@ -25,12 +25,12 @@
 
 </table>
 
-1. Explique que son los sistemas empresariales.
+### Explique que son los sistemas empresariales.
  
  Son sistemas centrales de una organizacion que permiten transmitir la informacion a todas las areas funcionales de una empresa para dar  soporte a la operacion y a la administracion de la misma.
-2. Describa cuales son las características más importantes de una aplicación empresarial.
+### Describa cuales son las características más importantes de una aplicación empresarial.
 
-3. Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
+### Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
 Justifique su respuesta.
 
 4. Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
