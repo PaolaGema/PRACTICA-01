@@ -2,11 +2,7 @@
 
 # SISTEMAS EMPRESARIALES #
 
-#### CARRERA:
-#### MATERIA:
-#### APELLIDOS Y NOMBRES:
-#### C.I.:
-#### FECHA Y LUGAR:
+
 
 1. Explique que son los sistemas empresariales.
 2. Describa cuales son las características más importantes de una aplicación empresarial.
