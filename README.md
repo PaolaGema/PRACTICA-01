@@ -41,6 +41,6 @@
 ### Describa con un gráfico la arquitectura Java EE
 ### Explique cuáles son los contenedores, componentes y servicios de Java EE.
 ### Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y
-HttpServletResponse, y para cada uno de los métodos muestre un ejemplo.
+### HttpServletResponse, y para cada uno de los métodos muestre un ejemplo.
 
 
