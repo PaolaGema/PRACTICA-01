@@ -26,6 +26,7 @@
 </table>
 
 1. Explique que son los sistemas empresariales.
+
 2. Describa cuales son las características más importantes de una aplicación empresarial.
 3. Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
 Justifique su respuesta.
