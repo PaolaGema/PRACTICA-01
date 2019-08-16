@@ -3,6 +3,7 @@
 # SISTEMAS EMPRESARIALES #
 
 <table>
+    
 <tr>
     <td>CARRERA:</td>
     <td>INGENIERIA DE SISTEMAS</td>
@@ -22,11 +23,8 @@
   <tr>
     <td>LUGAR Y FECHA</td>
     <td>CIUDAD DE EL ALTO</td>
-<tr>
-                <td rowspan="3">Campo unificado</td>
-                <td>Campo 2</td>
-                <td>Campo 3</td>
-            </tr>
+
+               
 
 </table>
 
