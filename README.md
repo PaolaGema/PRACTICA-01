@@ -22,6 +22,11 @@
   <tr>
     <td>LUGAR Y FECHA</td>
     <td>CIUDAD DE EL ALTO</td>
+<tr>
+                <td rowspan="3">Campo unificado</td>
+                <td>Campo 2</td>
+                <td>Campo 3</td>
+            </tr>
 
 </table>
 
@@ -98,36 +103,74 @@
 ### Explique cuáles son los contenedores, componentes y servicios de Java EE.
 **CONTENEDORES
 
-Java EE Server: La porción de tiempo de ejecución de un producto Java EE. provee los contenedores web y de ejb.
+•	Java EE Server: La porción de tiempo de ejecución de un producto Java EE. provee los contenedores web y de ejb.
 
-Contenedor EJB: Maneja la ejecución de los enterprise beans.
 
-Contenedor Web: Maneja la ejecución de las paginas web, servlets y algunos componentes ejb para las aplicaciones Java EE.
+•	Contenedor EJB: Maneja la ejecución de los enterprise beans.
 
-Contenedor de aplicación cliente: Maneja la ejecución de la aplicación cliente no necesita un servidor de aplicaciones.
 
-Contenedor Applet: Maneja la ejecución de applets, no necesita servidor de aplicaciones, consiste en un browser y el plugin web de java.
+•	Contenedor Web: Maneja la ejecución de las paginas web, servlets y algunos componentes ejb para las aplicaciones Java EE.
+
+
+•	Contenedor de aplicación cliente: Maneja la ejecución de la aplicación cliente no necesita un servidor de aplicaciones.
+
+
+•	Contenedor Applet: Maneja la ejecución de applets, no necesita servidor de aplicaciones, consiste en un browser y el plugin web de java.
 
 **COMPONENTES
 
-Client tier: Componentes que corren en la máquina del cliente.
-Web tier: Componentes que corren en un contenedor web.
-Business tier: Componentes que corren en un contenedor de negocio.
-EIS tier: Acceso a bases de datos y software heredado.
+•	Componente Cliente (Lado Cliente)
 
-**SERVIDORES
+---Web.
 
-JOnAS, un servidor de aplicaciones de código abierto de ObjectWeb.
-JBoss, desarrollado inicialmente por JBoss Inc y adquirido posteriormente por Red Hat. Existe una versión de código abierto soportada por la comunidad y otra empresarial.
-Sun Java System Application Server Platform Edition 9.0, basado en GlassFish.
-Oracle WebLogic Application Server 10.0 (Antes BEA Systems).
-Servidor de Aplicaciones SAP NetWeaver, Java EE 5 Edition de SAP.
-JEUS 6, un Servidor de aplicaciones específico de Linux de TmaxSoft.
-Apache Geronimo 2.0
-IBM WebSphere Application Server.
-Oracle Containers for Java EE 11.
-GlassFish, un servidor de aplicaciones de código abierto de Sun.
-Apache OpenEJB via Apache Geronimo.
+
+---Applets.
+
+
+---Aplicaciones de Escritorio.
+
+
+•	Componente Web (Lado Servidor)
+---Servlets
+
+
+---JavaServer Pages (JSP)/Facelets.
+
+
+---JavaServer Faces (JSP),framer para aplicaciones web
+
+
+•	Componente de Negocio (Lado Servidor)
+
+
+---Entrerprise JavaBeans (EJB)
+
+
+---Java Persistence API (JPA)
+
+
+**SERVICIOS
+
+•	De directorio: para la indexación y búsqueda de componentes y recursos 
+
+
+•	De despliegue: para poder personalizar los componentes y recursos 
+
+
+•	De transaccionalidad: para poder ejecutar distintas acciones en una misma unidad transaccional 
+
+
+•	De seguridad: para poder autenticar y autorizar a los usuarios de la aplicación
+
+
+•	De acceso a datos: para facilitar el acceso a Bases de Datos
+
+
+•	De conectividad: para poder acceder fácilmente a distintos EIS 
+
+
+•	De mensajería: para poder comunicarse con otros componentes, aplicaciones o EIS 
+
 
 ### Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y
 ### HttpServletResponse, y para cada uno de los métodos muestre un ejemplo.
