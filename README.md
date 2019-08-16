@@ -66,6 +66,12 @@
  
 ### 4.Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
  
+ ![IMAGEN](https://www.oscarblancarteblog.com/wp-content/uploads/2017/03/escalamiento-vertical.png)
+ 
+ 
+  ![IMAGEN](https://www.oscarblancarteblog.com/wp-content/uploads/2017/03/escalamiento-horizontal.png)
+ 
+ 
  <table>
 <tr>
     <td>ESCALABILIDAD HORIZONTAL</td>
