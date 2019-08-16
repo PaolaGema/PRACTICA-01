@@ -23,7 +23,7 @@
 </tr>
   <tr>
     <td>LUGAR Y FECHA</td>
-    <td>CIUDAD DE EL ALTO</td>
+    <td>CIUDAD DE EL ALTO   16/08/2019</td>
    
 </table>
                
