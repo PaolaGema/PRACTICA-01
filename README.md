@@ -7,7 +7,7 @@
 <tr>
     <td>CARRERA:</td>
     <td>INGENIERIA DE SISTEMAS</td>
-    <td rowspan=5><font size ="30", color ="blue">M</font></td>
+    <td rowspan=5>M</td>
 </tr>
 <tr>
     <td>MATERIA</td>
@@ -48,6 +48,20 @@
 
 ### Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
 ### Justifique su respuesta.
+ 
+ •	Instituciones Financieras, es muy necesaria su disponibilidad durante los horarios de atencion, debido a que perjudica a las personas su caida de sistema.
+ 
+ 
+ •	Instituciones Privadas (empresas), es muy importante la capacidad operativa dentro de una empresa.
+ 
+ 
+ •	Instituciones Publicas(hospitales,oficinas policiales,etc), es muy importante la disponibilidad, usabilidad, capacidad operativa dentro de cada una de las instituciones publicas debido a que mucha gente recurre diariamente a estos lugares. 
+ 
+ 
+ •	Instituciones Telefonicas, es muy necesaria su disponibildad las 24 horas del dia, caso contario la empresa perderia millones de bolivianos.
+ 
+ 
+ •	Instituciones Gubernamentales, son sistemas de índole social y cooperativa por lo que es muy necesaria su disponiblidad diaria.
  
  
 ### Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
@@ -95,7 +109,41 @@
 
 ![IMAGEN](http://www.profesordeinformatica.com/images/http_funcionamiento.gif)
 ### Explique los elementos importantes de REQUEST en HTTP
+
+• Method HTTP, método HTTP para la petición
+
+
+•URL, URL a la cual enviar la petición.
+
+
+•	FORMULARIO DE PARAMETROS:
+
+
+        Contenido, Contenidos del cuerpo (body) de la petición.
+        
+        
+        Respuesta, Resultado de la petición.
+        
+        
+       	NomEncab, Nombre de los encabezados de la petición.
+        
+        
+      	ValoresEncab, Valores de los encabezados de la petición.
+        
+        
+    	Resultado, código de estado HTTP
+
 ### Explique los elementos importantes de RESPONSE en HTTP
+
+
+•	Estado de Código, para saber si la solicitud fue exitosa.
+
+
+•	Tipo de contenido, ( texto, imagen, html, etc).
+
+
+•	Contenido, el actual contenido ya sea (Html, image, texto, etc).
+
 ### Describa con un gráfico la arquitectura Java EE
 
 ![IMAGEN1](https://image.slidesharecdn.com/jatunandjavaee-110905104600-phpapp02/95/desarrollo-de-aplicaciones-empresariales-con-java-ee-4-728.jpg?cb=1316098712)
@@ -173,5 +221,58 @@
 
 ### Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y
 ### HttpServletResponse, y para cada uno de los métodos muestre un ejemplo.
+
+**Metodos de HttpServlet
+
+•	init(ServletConfig config): Es el método utilizado para crear una nueva instancia del servlet (análogo al constructor).  Este método
+
+
+puede ser sobreescrito para realizar tareas como crear una conexión a una BD que se mantendrá mientras el servlet se mantenga cargado y 
+
+
+puede ser utilizada por cada petición. ServletConfig contiene los parámetros de inicialización que entrega el servidor al servlet.
+
+
+•	getServletConfig(): Retorna la configuración dada para la inicialización del servlet.
+
+
+•	service(ServletRequest req, ServletResponse res): Este método es el que se llama cuando se recibe una petición de un cliente y en su
+
+implementación normal para HTTP verifica el tipo de solicitud GET, POST, etc. y la redirige a los métodos respectivos. En general no es 
+
+
+necesario reimplementar este método.
+
+
+•	destroy(): Este método es llamado por el servidor para indicar que el servlet será destruido. Es llamado sólo una vez y uno debe
+
+encargarse de esperar por posibles peticiones en curso.
+
+
+
+**Metodos de HttpServletRequest
+
+•	El método getParameter devuelve el valor de un parámetro nombrado.
+
+
+•	El método getParameterValues devuelve un array de valores 
+
+
+•	Para peticiones GET de HTTP, el método getQueryString devuelve en un String una línea de datos desde el cliente
+
+
+•	Para peticones POST, PUT, y DELETE de HTTP.
+
+
+Si esperamos los datos en formato texto, el método getReader devuelve un BufferedReader utilizado para leer la línea de datos.
+
+
+Si esperamos datos binarios, el método getInputStream devuelve un ServletInputStream utilizado para leer la línea de datos.
+
+**Metodos de HttpServletResponse
+
+•	El método getWriter devuelve un Writer
+•	El método getOutputStream devuelve un ServletOutputStream
+
 
 
