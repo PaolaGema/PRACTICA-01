@@ -29,10 +29,10 @@
                
 
 
-### Explique que son los sistemas empresariales.
+### 1.Explique que son los sistemas empresariales.
  
  Son sistemas centrales de una organizacion que permiten transmitir la informacion a todas las areas funcionales de una empresa para dar  soporte a la operacion y a la administracion de la misma.
-### Describa cuales son las características más importantes de una aplicación empresarial.
+### 2.Describa cuales son las características más importantes de una aplicación empresarial.
 
 •	Disponibilidad, una aplicación empresarial debe prestar servicios de manera continua.
 
@@ -46,7 +46,7 @@
 •	Escalabilidad, que permita escalabilidad horizontal como escalabilidad vertical
 
 
-### Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
+### 3.Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
 ### Justifique su respuesta.
  
  •	Instituciones Financieras, es muy necesaria su disponibilidad durante los horarios de atencion, debido a que perjudica a las personas su caida de sistema.
@@ -64,7 +64,7 @@
  •	Instituciones Gubernamentales, son sistemas de índole social y cooperativa por lo que es muy necesaria su disponiblidad diaria.
  
  
-### Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
+### 4.Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
  
  <table>
 <tr>
@@ -98,17 +98,17 @@
 
 
 
-### Que es un servidor Web y que es un servidor de aplicaciones
+### 5.Que es un servidor Web y que es un servidor de aplicaciones
   Un servidor web es el software que se encarga de despachar el contenido de un sitio web al usuario.
    
    
  Un servidor de aplicaciones es un programa de servidor en un equipo en una red distribuida que proporciona la lógica de negocio para un programa de aplicación.
  
  
-### Con un gráfico explique cómo funciona el protocolo HTTP
+### 6.Con un gráfico explique cómo funciona el protocolo HTTP
 
 ![IMAGEN](http://www.profesordeinformatica.com/images/http_funcionamiento.gif)
-### Explique los elementos importantes de REQUEST en HTTP
+### 7.Explique los elementos importantes de REQUEST en HTTP
 
 • Method HTTP, método HTTP para la petición
 
@@ -133,7 +133,7 @@
         
     	Resultado, código de estado HTTP
 
-### Explique los elementos importantes de RESPONSE en HTTP
+### 8.Explique los elementos importantes de RESPONSE en HTTP
 
 
 •	Estado de Código, para saber si la solicitud fue exitosa.
@@ -144,10 +144,10 @@
 
 •	Contenido, el actual contenido ya sea (Html, image, texto, etc).
 
-### Describa con un gráfico la arquitectura Java EE
+### 9.Describa con un gráfico la arquitectura Java EE
 
 ![IMAGEN1](https://image.slidesharecdn.com/jatunandjavaee-110905104600-phpapp02/95/desarrollo-de-aplicaciones-empresariales-con-java-ee-4-728.jpg?cb=1316098712)
-### Explique cuáles son los contenedores, componentes y servicios de Java EE.
+### 10.Explique cuáles son los contenedores, componentes y servicios de Java EE.
 **CONTENEDORES
 
 •	Java EE Server: La porción de tiempo de ejecución de un producto Java EE. provee los contenedores web y de ejb.
@@ -219,7 +219,7 @@
 •	De mensajería: para poder comunicarse con otros componentes, aplicaciones o EIS 
 
 
-### Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y
+### 11.Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y
 ### HttpServletResponse, y para cada uno de los métodos muestre un ejemplo.
 
 **Metodos de HttpServlet
