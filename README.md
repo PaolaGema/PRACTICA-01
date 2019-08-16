@@ -1,5 +1,6 @@
 # PRACTICA-01
 
+![IMAGEN](https://www.realbusinesssolution.com/wp-content/uploads/2017/11/mejora.jpg)
 # SISTEMAS EMPRESARIALES #
 
 <table>
