@@ -228,7 +228,11 @@
 
 ### 11.Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y
 ### HttpServletResponse, y para cada uno de los métodos muestre un ejemplo.
+
+
 ![IMAGEN1](https://users.dcc.uchile.cl/~jbarrios/servlets/esquema.gif)
+
+
 **Metodos de HttpServlet
 
 •	init(ServletConfig config): Es el método utilizado para crear una nueva instancia del servlet (análogo al constructor).  Este método
