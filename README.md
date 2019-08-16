@@ -7,7 +7,7 @@
 <tr>
     <td>CARRERA:</td>
     <td>INGENIERIA DE SISTEMAS</td>
-    <td rowspan=5><font size ="3", color ="#ffffff">M</font></td>
+    <td rowspan=5><font size ="30", color ="blue">M</font></td>
 </tr>
 <tr>
     <td>MATERIA</td>
@@ -24,7 +24,8 @@
   <tr>
     <td>LUGAR Y FECHA</td>
     <td>CIUDAD DE EL ALTO</td>
-
+   
+</table>
                
 
 
