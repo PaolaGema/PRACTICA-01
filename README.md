@@ -30,56 +30,11 @@
  Son sistemas centrales de una organizacion que permiten transmitir la informacion a todas las areas funcionales de una empresa para dar  soporte a la operacion y a la administracion de la misma.
 ### Describa cuales son las características más importantes de una aplicación empresarial.
 
-1 Interfaz simple
 
- 
-
-El éxito de una aplicación móvil de empresa no es directamente proporcional a lo compleja que sea la aplicación. Todo lo contrario. Los usuarios demandan un interfaz simple e intuitivo. Una navegación simple basada en las pautas de diseño para la plataforma seleccionada.
-
- 
-
-Cualquiera que sea la funcionalidad, cuanto más fácil se entregue, mejor, y no perderá usuarios. Esa es una de las cualidades esenciales que ayudan a las aplicaciones móviles populares a reunir y mantener un público fiel.
-
- 
-
- 2 Visibilidad en IOS y Android
-
- 
-
- 
-
-Se trata de las dos principales plataformas en las que se debe estar presente. El desarrollo multiplataforma ahorra los presupuestos iniciales, permite la entrada temprana en el mercado y logra de manera efectiva la siguiente tercera característica
-
- 
-
- 
-
- 3 Seguridad
-
- 
-
-Como es lógico la seguridad es vital para el éxito de una aplicación ya sea de uso empresarial o para particulares. Temas importantes como la confidencialidad de los datos está protegida en el nivel legal pero también existen otros aspectos que atienden a la importancia de la seguridad como puede ser el acceso a información sensible de cada usuario.
-
- 
-
- 4 Funcionamiento offline de la APP
-
- 
-
-Es un aspecto a tener en cuenta a la hora de plantear el uso y funcionalidad de una aplicación móvil para empresa. Es lógico pensar que la APP dependa del uso y consumo de datos, es decir de su conexión a Internet. Sin embargo, el acceso a determinadas funcionalidades o contenidos en modo offline puede resultar de interés para los usuarios. Ten en cuenta que no siempre tendrán acceso a Internet, es raro que se de esa situación pero hay que preverla en función de tu negocio y objetivo de la aplicación.
-
- 
-
- 
-
-  5 Actualizaciones periódicas de la APP
-
- 
-
-Ten en cuenta que una aplicación móvil de empresa necesitará un ciclo continuo de desarrollo y por lo tanto de actualizaciones periódicas. Cuenta con un equipo preparado para dar ese mantenimiento y esas nuevas funcionalidades que hagan crecer la APP. Todo el contenido que ofrezcas a través de una aplicación móvil de empresa deberá ser actualizado y relevante para tu usuario o de lo contrario con el tiempo perderá su valor. Nuevas correcciones, funcionalidades, desarrollos, servicios y un largo etcétera harán más valioso tu producto y por lo tanto tu APP.
 
 ### Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
 ### Justifique su respuesta.
+ 
  
 ### Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
  **Escalabilidad Vertical
@@ -89,6 +44,12 @@ El escalar hacia arriba un sistema viene a significar una migración de todo el 
 **Escalabilidad Horizontal
 
 La escalabilidad horizontal consiste en potenciar el rendimiento del sistema desde un aspecto de mejora global, a diferencia de aumentar la potencia de una única parte del mismo. Este tipo de escalabilidad se basa en la modularidad de su funcionalidad. Por ello suele estar conformado por una agrupación de equipos que dan soporte a la funcionalidad completa. Normalmente, en una escalabilidad horizontal se añaden equipos para dar mas potencia a la red de trabajo.
+
+Cabecera A | Cabecera B
+-- | --
+Campo A0 | Campo B0
+Campo A1 | Campo B1
+
 ### Que es un servidor Web y que es un servidor de aplicaciones
    Un servidor web es el software que se encarga de despachar el contenido de un sitio web al usuario.
  Un servidor de aplicaciones es un programa de servidor en un equipo en una red distribuida que proporciona la lógica de negocio para un programa de aplicación.
