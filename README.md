@@ -238,11 +238,7 @@ puede ser utilizada por cada petición. ServletConfig contiene los parámetros d
 
 •	service(ServletRequest req, ServletResponse res): Este método es el que se llama cuando se recibe una petición de un cliente y en su
 
-implementación normal para HTTP verifica el tipo de solicitud GET, POST, etc. y la redirige a los métodos respectivos. En general no es 
-
-
-necesario reimplementar este método.
-
+implementación normal para HTTP verifica el tipo de solicitud GET, POST, etc. 
 
 •	destroy(): Este método es llamado por el servidor para indicar que el servlet será destruido. Es llamado sólo una vez y uno debe
 
