@@ -30,6 +30,16 @@
  Son sistemas centrales de una organizacion que permiten transmitir la informacion a todas las areas funcionales de una empresa para dar  soporte a la operacion y a la administracion de la misma.
 ### Describa cuales son las características más importantes de una aplicación empresarial.
 
+•	Disponibilidad, una aplicación empresarial debe prestar servicios de manera continua.
+
+
+•	Seguridad,  no todos los funcionarios de la empresa acceden al sistema con la  misma funcionalidad.
+
+
+•	Acceso a base de datos, usualmente a base de datos relacionales.
+
+
+•	Escalabilidad, que permita escalabilidad horizontal como escalabilidad vertical
 
 
 ### Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica.
@@ -37,22 +47,46 @@
  
  
 ### Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
- **Escalabilidad Vertical
  
-El escalar hacia arriba un sistema viene a significar una migración de todo el sistema a un nuevo hardware que es mas potente y eficaz que el actual. Una vez se ha configurado el sistema futuro, se realizan una serie de validaciones y copias de seguridad y se pone en funcionamiento. Las aplicaciones que estén funcionando bajo la arquitectura hardware antigua no sufren con la migración, el impacto en el código es mínimo.
+ <table>
+<tr>
+    <td>ESCALABILIDAD HORIZONTAL</td>
+    <td>ESCALABILIDAD VERTICAL</td>
+</tr>
+<tr>
+    <td>Complicado de Implementar</td>
+    <td>Fácil de implementar</td>
+</tr>
+  <tr>
+    <td>El crecimiento es prácticamente
+ Infinito, permite agregar servidores cuantos sean necesarios.
+</td>
+    <td>El crecimiento esta limitado por el Hardware</td>
+</tr>
+  <tr>
+    <td>Soporta la alta disponibilidad </td>
+    <td>No soporta la Alta disponibilidad</td>
+</tr>
+  <tr>
+    <td>Si un nodo falla, los demás siguen trabajando</td>
+    <td>Una falla en el Servidor implica que la aplicación se detenga</td>
+    </tr>
+<tr>
+    <td>Requiere de mucho mantenimiento</td>
+    <td></td>
+</tr>
+</table>
+ 
 
-**Escalabilidad Horizontal
 
-La escalabilidad horizontal consiste en potenciar el rendimiento del sistema desde un aspecto de mejora global, a diferencia de aumentar la potencia de una única parte del mismo. Este tipo de escalabilidad se basa en la modularidad de su funcionalidad. Por ello suele estar conformado por una agrupación de equipos que dan soporte a la funcionalidad completa. Normalmente, en una escalabilidad horizontal se añaden equipos para dar mas potencia a la red de trabajo.
-
-Cabecera A | Cabecera B
--- | --
-Campo A0 | Campo B0
-Campo A1 | Campo B1
 
 ### Que es un servidor Web y que es un servidor de aplicaciones
-   Un servidor web es el software que se encarga de despachar el contenido de un sitio web al usuario.
+  Un servidor web es el software que se encarga de despachar el contenido de un sitio web al usuario.
+   
+   
  Un servidor de aplicaciones es un programa de servidor en un equipo en una red distribuida que proporciona la lógica de negocio para un programa de aplicación.
+ 
+ 
 ### Con un gráfico explique cómo funciona el protocolo HTTP
 
 ![IMAGEN](http://www.profesordeinformatica.com/images/http_funcionamiento.gif)
@@ -60,7 +94,7 @@ Campo A1 | Campo B1
 ### Explique los elementos importantes de RESPONSE en HTTP
 ### Describa con un gráfico la arquitectura Java EE
 
-![IMAGEN1](http://2.bp.blogspot.com/-7zFS7efYlhE/TsrRPGhkedI/AAAAAAAAAAM/CjsvPDalV44/s1600/Grafico+-+ArquitecturaWeb.bmp)
+![IMAGEN1](https://image.slidesharecdn.com/jatunandjavaee-110905104600-phpapp02/95/desarrollo-de-aplicaciones-empresariales-con-java-ee-4-728.jpg?cb=1316098712)
 ### Explique cuáles son los contenedores, componentes y servicios de Java EE.
 **CONTENEDORES
 
