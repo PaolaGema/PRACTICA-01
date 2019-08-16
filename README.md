@@ -7,6 +7,7 @@
 <tr>
     <td>CARRERA:</td>
     <td>INGENIERIA DE SISTEMAS</td>
+    <td rowspan=2>M</td>
 </tr>
 <tr>
     <td>MATERIA</td>
@@ -26,6 +27,18 @@
 
                
 
+<table>
+
+<tr>
+<td>1</td>
+<td>2</td>
+<td rowspan=5>M</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>5</td>
+</tr>
 </table>
 
 ### Explique que son los sistemas empresariales.
